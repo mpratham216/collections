@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>Common From List</h3>
+	 <form action="webapi/myresource/commonlist" method="post">
+        <label for="list1">List 1 (comma-separated numbers):</label>
+        <input type="text" id="list1" name="list1" required><br><br>
+        
+        <label for="list2">List 2 (comma-separated numbers):</label>
+        <input type="text" id="list2" name="list2" required><br><br>
+        
+        <input type="submit" value="Find Common Values">
+    </form>
+    
+    <h3>Sort the Characters</h3>
+    <form action="webapi/myresource/sortchars" method="post">
+        <label for="string">String Input</label>
+        <input type="text" id="input" name="input" required><br><br>
+        <input type="submit" value="Sort characters">
+    </form>
+    
+    <h3>Remove Duplicates</h3>
+    <form action="webapi/myresource/removeduplicates" method="post">
+        <label for="list">List  (comma-separated numbers):</label>
+        <input type="text" id="list" name="list" required><br><br>
+        <input type="submit" value="Remove Duplicates">
+    </form>
+    <h3>Give Employee Salary</h3>
+    <form action="webapi/myresource/employeebonus" method="post">
+        <label for="list">Employee Salary List  (comma-separated numbers):</label>
+        <input type="text" id="list" name="list" required><br><br>
+        <input type="submit" value="Employee Bonus">
+    </form>
+     <h3>Shuffle Characters</h3>
+    <form action="webapi/myresource/employeebonus" method="post">
+        <label for="string">Enter a String to Shuffle:</label>
+        <input type="text" id="value" name="value" required><br><br>
+        <input type="submit" value="Shuffle">
+    </form>
+    </form>
+     
+     <h3>Descending Set</h3>
+    <form action="webapi/myresource/descendingorder" method="post">
+        <label for="numbers">Enter a Set (csv):</label>
+        <input type="text" id="numbers" name="numbers" required><br><br>
+        <input type="submit" value="Set in descending">
+    </form>
+    <h3>Marks </h3>
+     <form action="webapi/myresource/calculatePercentages" method="post">
+        <label for="marksMap">Enter marks map (key=mark1,mark2,...;key2=mark1,mark2,...):</label>
+        <input type="text" id="marksMap" name="marksMap">
+        <button type="submit">Calculate Percentages</button>
+    </form>
+    	
+
+</body>
+</html>
